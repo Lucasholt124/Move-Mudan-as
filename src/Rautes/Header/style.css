@@ -1,0 +1,30 @@
+#imagem-Move1 {
+  width: 100%;
+  height: auto;
+  clip-path: polygon(0% 0, 100% 0, 100% 75%, 0% 96%);
+  margin-top: -8rem;
+  margin-bottom: 10rem;
+  margin-left: 0rem;
+  margin-right: 0rem; 
+  padding: 0rem;
+  display: flex;
+  z-index: -5;
+}
+
+#caixa-letras {
+  display: flex;
+  margin-left: -rem;
+  margin-top: -45rem;
+}
+
+#caixa-textprincipal {
+  display: flex;
+  margin-left: 1rem;
+  margin-top: 5rem;
+}
+
+#caixa-button {
+  display: flex;
+  margin-left: -5rem;
+  margin-top: -7rem;
+}

@@ -1,0 +1,96 @@
+#como-funciona {
+  background-color: white;
+  height: 110rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+}
+main section .h1-como-funciona {
+  font-size: 7vh;
+  font-weight: bold;
+  margin-left: 37rem;
+  text-decoration: solid underline black 10px;
+  margin-top: 5rem;
+}
+
+main section h3 {
+  margin-left: 33rem;
+  margin-top: -25px;
+  font-size: 3vh;
+}
+
+#cards1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -60rem;
+  margin-right: 70rem;
+  margin-left: -20rem;
+}
+#cards1 .cards-como-funciona {
+  margin-left: 20rem;
+}
+
+
+#cards2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+  margin-right: 70rem;
+  margin-left: -20rem;
+}
+#cards2 .cards-como-funciona {
+  margin-left: 20rem;
+}
+
+
+#cards3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  margin-right: 5rem;
+  margin-left: 5rem;
+}
+#cards3 .cards-como-funciona {
+  margin-left: 57rem;
+}
+
+
+#cards4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -50rem;
+  margin-right: 5rem;
+  margin-left: 5rem;
+}
+#cards4 .cards-como-funciona {
+  margin-left: 57rem;
+}
+
+#botao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40rem;
+  margin-right: 15rem;
+ 
+}
+#botao .button-como-funciona {
+  margin-left: 57rem;
+}
+
+#line-img {
+  margin-top: 10rem;
+  z-index: -100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 28rem;
+  width: 35%;
+}
+

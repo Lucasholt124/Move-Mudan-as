@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #B6B6B6;
+}
+
+span {
+  display: flex;
+  background-color: #B6B6B6;
+}

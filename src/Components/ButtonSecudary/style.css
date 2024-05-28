@@ -1,0 +1,24 @@
+#botão-Move2{
+  margin-left: 15%;
+  margin-top: 3rem;
+  display: flex;
+
+}
+#botão-Move2 button {
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  width: 28rem;
+  height: 4rem;
+  cursor: pointer;
+  z-index: 1;
+  border: 2px solid red;
+}
+
+#botão-Move2 button h2 {
+  color: red;
+  text-align: center;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 3vh;
+}

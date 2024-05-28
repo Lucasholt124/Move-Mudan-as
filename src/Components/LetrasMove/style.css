@@ -1,0 +1,24 @@
+#letras-Move1 {
+  margin-top: -12rem;
+  margin-bottom: 10rem;
+  margin-left: 10%;
+  margin-right: 90rem;
+  padding: 0rem;
+  display: flex;
+  z-index: 1;
+  color: white;
+}
+
+#letras-Move1 h1 {
+  font-size: 10vh;
+  font-weight: bold;
+
+  z-index: 2;
+}
+
+#letras-Move1 .move-h1 {
+  font-weight: bold;
+  color: red;
+
+  z-index: 2;
+}

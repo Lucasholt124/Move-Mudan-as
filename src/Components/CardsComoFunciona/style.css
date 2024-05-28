@@ -1,0 +1,36 @@
+.cards-como-funciona {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+.casa1 img {
+  margin-left: 10rem;
+
+}
+
+.casa1 h2 {
+  font-weight: bold;
+  font-size: 3vh;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 5rem;
+  margin-right: 7rem;
+  text-align: center;
+
+}
+
+.casa1 p {
+
+  font-size: 3vh;
+  text-align: center;
+  text-align: center;
+  margin-left: 1rem;
+  margin-right: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+

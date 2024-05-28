@@ -1,0 +1,23 @@
+#botão-Move1 {
+  margin-left: 15%;
+  margin-top: 3rem;
+  display: flex;
+}
+#botão-Move1 button {
+  background-color: #FF0000;
+  border: none;
+  border-radius: 15px;
+  width: 28rem;
+  height: 4rem;
+  cursor: pointer;
+  z-index: 1;
+}
+
+#botão-Move1 button h3 {
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 4vh;
+}

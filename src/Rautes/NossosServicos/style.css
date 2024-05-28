@@ -1,0 +1,48 @@
+#nossos-servicos {
+  background-color: #B6B6B6;
+  padding: 10rem;
+  margin-top: 10rem;
+  display: flex;
+}
+
+#nossos-servicos .nossos-servicos1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  margin-left: 30rem;
+}
+
+.nossos-servicos1  p {
+  color: red;
+  margin-right: -16rem;
+  font-weight: bold;
+  display: flex;
+  font-size: 3vh;
+}
+
+
+#nossos-servicos-h1 {
+  font-weight: bold;
+  margin-top: 3rem;
+  margin-right: -30rem;
+  display: flex;
+  flex-direction: column;
+  margin-left: -12rem;
+}
+
+#nossos-servicos-h1 h1 {
+  font-weight: bold;
+  display: flex;
+  font-size: 6vh;
+}
+
+#cards-servicos {
+  align-items: center;
+  align-items: center;
+  flex: space-around;
+  display: flex;
+  align-items: center;
+  flex: space-around;
+  margin-left: -35rem; 
+  margin-top: 15rem;
+}
