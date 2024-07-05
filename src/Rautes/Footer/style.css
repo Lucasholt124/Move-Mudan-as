@@ -94,3 +94,22 @@ footer .footer {
   margin-top: 40rem;
   margin-left: -99rem;
 }
+
+#footer-text10 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -60rem;
+  margin-left: -500rem;
+  margin-right: -10rem;
+
+}
+
+#footer-text-h4 {
+  width: 100%;
+  display: flex;
+  margin-top: 18rem;
+  margin-left: -67rem;
+
+}

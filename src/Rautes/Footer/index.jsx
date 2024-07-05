@@ -15,6 +15,10 @@ const Footer = () => {
         <div className='footer-text-h1'>
            <h1>Faça sua mudança com segurança e <br /> sem dor de cabeça.</h1>
         </div> 
+        <div id='footer-text10'>
+          <h3 id='footer-text-h3'>em apenas um clique você pode receber imediatamente um orçamento com preço fixo personalizado de acordo com suas  nescessidades.</h3>
+          <h3 id='footer-text-h4'>Fazemos um esforço extra para garantir que você possa relaxar completamente no dia da mudança. já são mais de 8.000 apenas no ano passado</h3>
+        </div>
         <div id='footer-text'>
           <h1>Seu texto aqui
             <img id='Vector' src={Vector} alt="" />
