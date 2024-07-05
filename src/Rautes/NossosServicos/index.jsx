@@ -1,5 +1,8 @@
 import CardServicos from '../../Components/Button/Button/index';
 import './style.css';
+import calloutline from '../../assets/call-outline.svg';
+import shield from '../../assets/shield-checkmark.svg';
+import Vetor from '../../assets/Vector1.svg';
 
 const NossosServicos = () => {
   return (
@@ -11,9 +14,9 @@ const NossosServicos = () => {
         </div>
       </div>
       <div id='cards-servicos'>
-          <CardServicos/>
-          <CardServicos/>
-          <CardServicos/>
+          <CardServicos img={calloutline} title="Atendimento personalizado" description="Reserva simples e online, economize tempo e aborrecimento sem vistas domiciliares" />
+          <CardServicos img={shield} title="Atendimento personalizado" description="Reserva simples e online, economize tempo e aborrecimento sem vistas domiciliares" />  
+          <CardServicos  img={Vetor} title="Atendimento personalizado" description="Reserva simples e online, economize tempo e aborrecimento sem vistas domiciliares" />
         </div>
     </main>
   )
