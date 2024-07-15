@@ -22,13 +22,168 @@
   font-size: 4vh;
 }
 
-.botao-proximo {
-  margin-left: 10rem;
-  margin-top: 0.5rem;
-  width: 100%;
-  height: 40rem;
-  z-index: 1;
+.comecar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -33rem;
+}
+
+.h1-comecar {
+  font-size: 8vh;
+  font-weight: bold;
+}
+
+/* Aui começa o formulario primario */
+
+.form {
+  display: flex;
+  margin-left: -6rem;
+  margin-right: 10rem;
+  margin-top: 8rem;
+}
+
+.input-nome {
+  width: 20rem;
+  height: 2rem;
+  margin-bottom: 1rem;
+}
+
+.h1-sobrenome {
+  margin-left: 35rem;
+  margin-top: -112px;
+}
+
+.input-sobrenome {
+  width: 20rem;
+  height: 2rem;
+  margin-bottom: 1rem;
+  margin-left: 35rem;
+}
+
+.h1-email {
+  margin-left: 35rem;
+}
+
+.input-email {
+  width: 20rem;
+  height: 2rem;
+  margin-bottom: 1rem;
+  margin-left: 35rem;
+}
+
+.h1-telefone{
+  margin-top: -112px;
+}
+
+.input-telefone {
+  width: 20rem;
+  height: 2rem;
+  margin-bottom: 1rem;
+}
+
+.enviar {
+  margin-left: 70rem;
+  margin-top: -5rem;
+}
+
+.botao-enviar {
+  background-color: #00BD2A;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  width: 10rem;
+  height: 2rem;
   cursor: pointer;
-  color: #FF0000;
-  background-color: aqua;
+  z-index: 1;
+  font-size: 2.9svh;
+  font-weight: bold;
+}
+
+/*Aqui começa a rota de paginas abaixo do nome Vamos Começar */
+
+.div-suas-informacoes {
+  display: flex;
+  margin-top: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: -17rem;
+  margin-right: -17rem;
+  margin-top: -1rem;
+}
+
+.elipse {
+  margin-left: -1px;
+  margin-top: 1rem;
+  margin-bottom: 13px;
+}
+
+.h3-suas-informações {
+  margin-left: -65px;
+}
+
+.Rectangle {
+  margin-left: -4rem;
+  margin-top: 1rem;
+  margin-bottom: 13px;
+}
+
+.h3-item-numero {
+  margin-left: -108px;
+  color: white;
+}
+
+.h3-item-mudança {
+  margin-left: -55px;
+  color: #B6B6B6;
+}
+
+.elipse-secundario {
+  margin-left: -4rem;
+  margin-top: 1rem;
+  margin-bottom: 13px;
+}
+
+.Rectangle-secundario {
+  margin-left: -70px;
+  margin-top: 1rem;
+  margin-bottom: 13px;
+  background-color: #B6B6B6;
+  color: #B6B6B6;
+}
+
+.elipse-terciario {
+  margin-left: -5rem;
+  margin-top: 1rem;
+  margin-bottom: 13px;
+}
+
+.h3-localizacao {
+  margin-left: -75px;
+  color: #B6B6B6;
+}
+
+.Rectangle-terciario {
+  margin-left: -70px;
+  margin-top: 17px;
+  margin-bottom: 13px;
+}
+
+.elipse-quartario {
+  margin-left: -5rem;
+  margin-top: 1rem;
+  margin-bottom: 13px;
+}
+
+.h3-entrega {
+  margin-left: -75px;
+  color: #B6B6B6;
+}
+
+.Rectangle-quartario {
+  margin-left: -70px;
+  margin-top: 17px;
+  margin-bottom: 13px;
+  background-color: #B6B6B6;
+  color: #B6B6B6;
 }

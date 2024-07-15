@@ -6,7 +6,7 @@ import TextPrincipal from '../../Components/TextPrincipal';
 
 const Header = () => {
   return (
-  <div className='App1'>   
+  <div className='App1'>
     <img id='imagem-Move1' src={imagemm0ve1} alt="Imagem principal" />
     <span id='caixa-letras'>
       <LetrasMove />

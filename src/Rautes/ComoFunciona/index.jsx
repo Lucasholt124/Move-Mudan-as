@@ -9,8 +9,6 @@ import Delivery from '../../assets/Delivery.svg';
 
 import './style.css';
 
-
-
 const ComoFunciona = () => {
   return (
     <main id='como-funciona'>
