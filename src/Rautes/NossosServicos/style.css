@@ -8,7 +8,7 @@
 #nossos-servicos .nossos-servicos1 {
   display: flex;
   flex-direction: column;
-  align-items: center; 
+  align-items: center;
   margin-left: 30rem;
 }
 
@@ -43,6 +43,59 @@
   display: flex;
   align-items: center;
   flex: space-around;
-  margin-left: -35rem; 
+  margin-left: -35rem;
   margin-top: 15rem;
+}
+
+@media screen and (min-width: 300px) and (max-width: 1024px) {
+
+  #nossos-servicos {
+    background-color: #B6B6B6;
+    padding: 0rem;
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0rem;
+  }
+
+  #nossos-servicos .nossos-servicos1 {
+    flex-direction: column;
+    align-items: center;
+    margin-left: -16rem;
+  }
+
+  .nossos-servicos1  p {
+    color: red;
+    margin-right: -16rem;
+    font-weight: bold;
+    font-size: 3vh;
+    flex-direction: column;
+  }
+
+
+  #nossos-servicos-h1 {
+    font-weight: bold;
+    margin-top: 3rem;
+    margin-right: -30rem;
+    margin-left: -12rem;
+    flex-direction: column;
+  }
+
+  #nossos-servicos-h1 h1 {
+    font-weight: bold;
+    display: flex;
+    font-size: 5vh;
+    max-width: 26rem;
+    margin-left: -2rem;
+
+  }
+
+  #cards-servicos {
+    align-items: center;
+    margin-left: -30rem;
+    margin-top: -10rem;
+    flex-direction: column;
+    margin-left: 1px;
+  }
 }

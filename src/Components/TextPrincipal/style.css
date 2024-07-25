@@ -20,3 +20,37 @@
   font-size: 3vh;
   font-weight: bold;
 }
+
+@media screen and (min-width: 300px) and (max-width: 1024px) {
+
+  .text-principal {
+    color: white;
+    margin-left: 10rem;
+    z-index: 1;
+  }
+  .text-principal h1 {
+    font-size: 5vh;
+    font-weight: bold;
+    margin-top: -15rem;
+    margin-bottom: 5rem;
+    max-width: 20rem;
+    margin-left: 1rem;
+  }
+  .texto-principal-h2 {
+    margin-left: 0;
+    margin-right: 63rem;
+    margin-top: -1rem;
+    color: white;
+    z-index: 1;
+  }
+  .texto-principal-h2 h2 {
+    font-size: 3vh;
+    font-weight: bold;
+  }
+  .casa1 p {
+    font-size: 3vh;
+    text-align: center;
+    text-align: center;
+  }
+
+}

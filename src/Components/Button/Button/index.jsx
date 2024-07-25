@@ -5,7 +5,7 @@ const CardServicos = (props) => {
   const {img, title, description } = props;
   return (
     <div className='card1'>
-       <img src={img} alt="Imagem de um telefone" />
+      <img src={img} alt="Imagem de um telefone" />
       <div className='card1-text'>
       <p>{title}</p>
       </div>

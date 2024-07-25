@@ -5,7 +5,7 @@
   margin-top: -8rem;
   margin-bottom: 10rem;
   margin-left: 0rem;
-  margin-right: 0rem; 
+  margin-right: 0rem;
   padding: 0rem;
   display: flex;
   z-index: -5;
@@ -27,4 +27,34 @@
   display: flex;
   margin-left: -5rem;
   margin-top: -7rem;
+}
+
+@media screen and (min-width: 300px) and (max-width: 1024px) {
+  #imagem-Move1 {
+    width: 100%;
+    height: auto;
+    margin-top: 0rem;
+    margin-bottom: 10rem;
+    padding: 0rem;
+    z-index: -5;
+  }
+
+  #caixa-letras {
+    margin-left: -4rem;
+    margin-top: -13rem;
+    margin-right: -15rem;
+  }
+
+  #caixa-textprincipal {
+    margin-left: -9rem;
+    margin-top: 3rem;
+    margin-right: -80rem;
+    max-width: 92rem;
+  }
+
+  #caixa-button {
+    margin-left: -5rem;
+    margin-top: -6rem;
+    max-width: 100rem;
+  }
 }

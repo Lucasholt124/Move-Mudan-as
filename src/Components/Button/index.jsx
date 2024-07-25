@@ -15,7 +15,7 @@ const Button = () => {
   return (
     <>
     <div id='botão-Move1' >
-      <button onClick={() => setIsOpenModal(true)}><h3>FAÇA SEU ORÇAMENTO</h3></button>
+      <button className='botão-Move1' onClick={() => setIsOpenModal(true)}><h3 className='h3-botão'>FAÇA SEU ORÇAMENTO</h3></button>
     </div>
     <Modal isOpen={openModal} setModalOpen={() => setIsOpenModal(!openModal)}>
     <div className='comecar'><h1 className='h1-comecar'>Vamos Começar?</h1></div>

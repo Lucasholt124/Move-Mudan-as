@@ -93,3 +93,123 @@ main section h3 {
   width: 35%;
 }
 
+#buttonMove20 {
+  margin-left: 30rem;
+  margin-top: 42rem;
+  width: 30%;
+  height: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.buttonMove20 {
+  background-color: white;
+  border: none;
+  color: white;
+  border-radius: 15px;
+  width: 28rem;
+  height: 4rem;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.buttonMove20 #buttonMove {
+  background-color: black;
+  color: black;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+@media screen and (min-width: 300px) and (max-width: 1024px) {
+  .h1-como-funciona {
+    font-size: 6vh;
+    font-weight: bold;
+    margin-right: 30rem;
+    text-decoration: solid underline black 10px;
+    margin-bottom: 4rem;
+  }
+  .h3-como-funciona {
+    max-width: 20rem;
+    margin: auto;
+    font-size: 2vh;
+  }
+
+  #cards1 {
+    display: flex;
+    margin-top: 2rem;
+    margin-right: -80rem;
+    margin-left: 37rem;
+    max-width: 1rem;
+  }
+
+  #cards2 {
+    display: flex;
+    margin-top: 25rem;
+    margin-right: -70rem;
+    margin-left: 37rem;
+    max-width: 1rem;
+  }
+
+  #cards3 {
+    margin-top: 1rem;
+    margin-right: 80rem;
+    margin-left: 17rem;
+    max-width: 1rem;
+  }
+
+  #cards4 {
+    display: flex;
+    margin-top: -60rem;
+    margin-right: 50rem;
+    margin-left: 18rem;
+    max-width: 1rem;
+  }
+
+  #botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40rem;
+    margin-right: 15rem;
+  }
+
+  #line-img {
+    display: none;
+  }
+
+  #buttonMove20 {
+    margin-left: 30rem;
+    margin-top: 42rem;
+    width: 30%;
+    height: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  .buttonMove20 {
+    background-color: white;
+    border: none;
+    color: white;
+    border-radius: 15px;
+    width: 28rem;
+    height: 4rem;
+    cursor: pointer;
+    z-index: 1;
+  }
+}

@@ -58,7 +58,7 @@ footer .footer {
   margin-left: -50rem;
   margin-top: -40rem;
 
-  border: 2px solid red;  
+  border: 2px solid red;
 }
 
 
@@ -111,5 +111,91 @@ footer .footer {
   display: flex;
   margin-top: 18rem;
   margin-left: -67rem;
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 1024px) {
+  #footer-text10 {
+    margin-top: -75rem;
+    margin-left: -2rem;
+    margin-right: 10rem;
+    width: 20000%;
+  }
+
+  #footer-text-h4 {
+    display: none;
+  }
+
+  .footer-text-p {
+    text-align: center;
+    font-size: 3vh;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: -50rem;
+    margin-top: -40rem;
+  }
+
+  .footer-text-h1 {
+    margin-left: 20em;
+    margin-top: -85rem;
+    width: 1000rem;
+    display: flex;
+    margin-right: -25rem;
+  }
+
+  .footer-text-h1 h1 {
+    text-align: center;
+    margin-top: -5rem;
+    margin-bottom: 0.5rem;
+    font-size: 3vh;
+    margin-left: -24rem;
+  }
+
+  .footer-video {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -40rem;
+    margin-left: 6rem;
+    max-width: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  #elipse {
+    z-index: 1;
+    margin-left: -17rem;
+  }
+
+  #Polygon {
+    z-index: 1;
+    margin-left: -4rem;
+  }
+
+  .map {
+    display: block;
+    margin-top: 31rem;
+    margin-left: -99rem;
+    max-width: 100rem;
+  }
+
+  #footer-text {
+    display: flex;
+    margin: auto !important;
+  }
+
+  #footer-text h1 {
+    text-align: center;
+    font-size: 5vh;
+    margin-top: 0.5rem;
+    margin-bottom: 5rem;
+    margin-left: -110rem;
+    color: #BF0000;
+    font-family: bold;
+  }
+  #Vector {
+    display: none;
+  }
 
 }

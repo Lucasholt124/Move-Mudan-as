@@ -1,5 +1,4 @@
-
-import ButtonSecundary from '../../Components/ButtonSecudary';
+import Button from "../../Components/Button";
 import CardsComoFunciona from '../../Components/CardsComoFunciona';
 import line from '../../assets/Line.svg';
 import Casa from '../../assets/Casa.svg';
@@ -14,8 +13,8 @@ const ComoFunciona = () => {
     <main id='como-funciona'>
       <section>
         <h1 className='h1-como-funciona'>Como Funciona?</h1>
-        <h3>A move simplifica todo o processo de movimentação.</h3>
-        <img id='line-img'  src={line} alt="Linhas dos cards" />   
+        <h3 className='h3-como-funciona'>A move simplifica todo o processo de movimentação.</h3>
+        <img id='line-img'  src={line} alt="Linhas dos cards" />
         <div id='cards1'>
         <CardsComoFunciona img={Casa} title="1. escolha seus detalhes de movimentação" description="Adcione os detalhes da sua mudança e obtenha o preço pela mudança imediatamente."  />
         </div>
@@ -28,10 +27,10 @@ const ComoFunciona = () => {
         <div id='cards4'>
         <CardsComoFunciona img={Home} title="2. Organize tudo em um só lugar" description="vamos ajudá-lo a criar uma lista de coisas para mover, vamos dominar isso juntos."/>
         </div>
-        <div id='botao'>
-           <ButtonSecundary />
+        <div id='buttonMove20'>
+          <Button key={Math.random()}/>
         </div>
-         
+
       </section>
 
     </main>

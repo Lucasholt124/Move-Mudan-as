@@ -14,8 +14,8 @@ const NossosServicos = () => {
         </div>
       </div>
       <div id='cards-servicos'>
-          <CardServicos img={calloutline} title="Atendemos 24hrs todos os dias" description="Reserva simples e online, economize tempo e aborrecimento sem vistas domiciliares" />
-          <CardServicos img={shield} title="Todos os seus dados seram protegidos" description="Reserva simples e online, economize tempo e aborrecimento sem vistas domiciliares" />  
+          <CardServicos img={calloutline} title="Atendemos 24hrs todos os dias" description="Reserva simples e online, economize tempo e aborrecimento sem </br> vistas domiciliares" />
+          <CardServicos img={shield} title="Todos os seus dados seram protegidos" description="Reserva simples e online, economize tempo e aborrecimento sem vistas domiciliares" />
           <CardServicos  img={Vetor} title="O valor mais econômico para você" description="Reserva simples e online, economize tempo e aborrecimento sem vistas domiciliares" />
         </div>
     </main>
